@@ -2,4 +2,5 @@
 title: author
 ---
 
-**Mr. Gatsby** Proin ornare ligula eu tellus tempus elementum. Aenean [bibendum](/) iaculis mi, nec blandit lacus interdum vitae. Vestibulum non nibh risus, a scelerisque purus. Blandit lacus interdum vitae. Vestibulum non nibh risus, a scelerisque purus.
+**KyleXID** 파이썬,장고를 기반으로 개발하고있는 백엔드 개발자입니다. 현재 P2P금융 업체에서 웹개발을 맡고 있습니다.
+

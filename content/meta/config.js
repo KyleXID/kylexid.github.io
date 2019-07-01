@@ -1,23 +1,23 @@
 module.exports = {
-  siteTitle: "HeroBlog - a GatsbyJS starter", // <title>
-  shortSiteTitle: "HeroBlog - GatsbyJS starter", // <title> ending for posts and pages
-  siteDescription: "HeroBlog is a GatsbyJS starter.",
-  siteUrl: "https://gatsby-starter-hero-blog.greglobinski.com",
+  siteTitle: "몬스터코딩 - 백엔드 블로그", // <title>
+  shortSiteTitle: "몬스터코딩", // <title> ending for posts and pages
+  siteDescription: "백엔드 개발공부하는 블로그입니다.",
+  siteUrl: "https://kylexid.github.io/",
   // pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
 
   /* author */
-  authorName: "greg lobinski",
-  authorTwitterAccount: "greglobinski",
+  authorName: "KyleXID",
+  authorTwitterAccount: "KyleXID",
 
   /* info */
-  headerTitle: "greg lobinski",
-  headerSubTitle: "presents another one GatsbyJS starter",
+  headerTitle: "KyleXID",
+  headerSubTitle: "몬스터코딩",
 
   /* manifest.json */
-  manifestName: "HeroBlog - a GatsbyJS starter",
-  manifestShortName: "HeroBlog", // max 12 characters
+  manifestName: "몬스터코딩 - 라이언의 백엔드 블로그",
+  manifestShortName: "몬스터코딩", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
   manifestThemeColor: "#666",
@@ -32,8 +32,8 @@ module.exports = {
 
   // social
   authorSocialLinks: [
-    { name: "github", url: "https://github.com/greglobinski" },
-    { name: "twitter", url: "https://twitter.com/greglobinski" },
-    { name: "facebook", url: "http://facebook.com/greglobinski" }
+    { name: "github", url: "https://github.com/KyleXID" },
+    { name: "twitter", url: "https://twitter.com/KyleXID" },
+    { name: "facebook", url: "http://facebook.com/kylexid" }
   ]
 };

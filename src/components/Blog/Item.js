@@ -68,6 +68,7 @@ const Item = props => {
           background: transparent;
 
           :global(.gatsby-image-outer-wrapper) {
+	    width: 0px;
             border-radius: ${theme.size.radius.default};
             border: 1px solid ${theme.line.color};
             overflow: hidden;
