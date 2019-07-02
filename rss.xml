@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[몬스터코딩 - 백엔드 블로그]]></title><description><![CDATA[백엔드 개발공부하는 블로그입니다.]]></description><link>https://kylexid.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 02 Jul 2019 15:57:24 GMT</lastBuildDate><item><title><![CDATA[20190620 TIL]]></title><description><![CDATA[동시에 request가 올 경우 데이터를 처리하는 방법에 대해,, queue를 이용하여 데이터를 쌓고 하나씩 처리하는 방법이 있다. transaction 자체가 lock의 역할을 할 수 있다.]]></description><link>https://kylexid.github.io/20190620TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190620TIL/</guid><pubDate>Thu, 20 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;동시에 request가 올 경우 데이터를 처리하는 방법에 대해,,&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[몬스터코딩 - 백엔드 블로그]]></title><description><![CDATA[백엔드 개발공부하는 블로그입니다.]]></description><link>https://kylexid.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 02 Jul 2019 16:17:10 GMT</lastBuildDate><item><title><![CDATA[20190620 TIL]]></title><description><![CDATA[동시에 request가 올 경우 데이터를 처리하는 방법에 대해,, queue를 이용하여 데이터를 쌓고 하나씩 처리하는 방법이 있다. transaction 자체가 lock의 역할을 할 수 있다.]]></description><link>https://kylexid.github.io/20190620TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190620TIL/</guid><pubDate>Thu, 20 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;동시에 request가 올 경우 데이터를 처리하는 방법에 대해,,&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;queue를 이용하여 데이터를 쌓고 하나씩 처리하는 방법이 있다.&lt;/li&gt;
 &lt;li&gt;transaction 자체가 lock의 역할을 할 수 있다.&lt;/li&gt;
@@ -164,4 +164,220 @@ name mangling을 통해 private 설정가능하다.&lt;/li&gt;
 &lt;li&gt;generator: 이터레이터의 한 종류, 다수의 연속적인 데이터를 갖고있지만,  한번 호출할때 하나의 값만 리턴한다. 데이터의 수가 많아질수록 메모리적으로 효율적인 성능을 보여준다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item></channel></rss>
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20190612 TIL]]></title><description><![CDATA[터미널   커맨드 우분투 터미널환경에서 현재위치를 폴더로 여는 커맨드에 대해 알게되었다. - 장고 choices 쓸 때 장고 choices 쓸 때 선택사항에 왠만하면 0부터 시작말고 1부터하는게 좋다. 0부터 하면 불러올 때 None…]]></description><link>https://kylexid.github.io/20190612TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190612TIL/</guid><pubDate>Wed, 12 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;터미널 &lt;code class=&quot;language-text&quot;&gt;nautilus .&lt;/code&gt; 커맨드&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;우분투 터미널환경에서 현재위치를 폴더로 여는 커맨드에 대해 알게되었다.&lt;/li&gt;
+&lt;li&gt;-&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;장고 choices 쓸 때&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;장고 choices 쓸 때 선택사항에 왠만하면 0부터 시작말고 1부터하는게 좋다.&lt;br&gt;
+0부터 하면 불러올 때 None값으로 불러와지기 때문에, 비교를 할 때 예상치 못한 문제가 생길 수 있다!  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;json 형태&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;json형태로 response를 보낼 때 &lt;code class=&quot;language-text&quot;&gt;safe=false&lt;/code&gt;라는 옵션을 주면 딕셔너리가 아닌, 리스트 형태로 보낼 수 있다.&lt;br&gt;
+ES5 이전의 자바스크립트에서 array constructor에 문제를 발생시킬 수 있기 때문에, 별로 추천은 하지 않는 방법이라고한다.  &lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20190611 TIL]]></title><description><![CDATA[장고 makemigration 이슈 가끔 장고로 작업을 할 때, 앱을 생성하고 모델을 만들고 makemigration…]]></description><link>https://kylexid.github.io/20190611TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190611TIL/</guid><pubDate>Tue, 11 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;장고 makemigration 이슈&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;가끔 장고로 작업을 할 때, 앱을 생성하고 모델을 만들고 makemigration 명령어를
+입력했는데 &lt;code class=&quot;language-text&quot;&gt;No changes detected&lt;/code&gt;식으로 해당 모델을 인식을 하지 못하는 이슈가
+존재한다. 이를 해결하는 방법에 대해 알게되었다.
+INSTALLED_APPS에 먼저 해당 앱을 추가 한 뒤, 해당 앱을 지정해서 마이그레이션
+을 해주자.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;도커에 대해 알게 되었다.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;기존에 스터디를 통해 팀원들과 도커에 대해 이야기했는데, 멘토님을 통해서 도커
+에 대해 자세히 배울 수 있는 기회를 얻게 되었다.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20190610 TIL/장고 스터디]]></title><description><![CDATA[…]]></description><link>https://kylexid.github.io/20190610TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190610TIL/</guid><pubDate>Mon, 10 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;장고 쿠키커터&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;장고 쿠키커터라는 템플릿에 대해 알게 되었다.&lt;br&gt;
+쿠키커터는 장고 프로젝트 템플릿으로 프로젝트 코드를 구성하는데 도움을 준다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;엑세스 토큰을 이용한 다른 보안방법에 대해 알게 되었다.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;기존에 유저를 체크할때 엑세스 토큰만을 사용하여 유저를 검증하였지만, 보안
+쪽으로 더 강화하기위하여, 유저의 아이디, 토큰, 로그인한 브라우저까지 검증을
+하여 보안을 강화 할 수있다. 이 이상 넘어갈 경우에는 추가 보안 인증 서비스를
+이용하는 것이 좋다. 아니면 해당 서비스에 접근할 때 이메일, 비밀번호 검증을
+한 번 더 하는 방법도 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;code class=&quot;language-text&quot;&gt;__future__&lt;/code&gt;에 대해..&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;import시 같은이름으로 겹쳐질 때는 as를 쓰도록하자.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;먼저 항상 import할때는 settings관련 파일을 제외하고는 &lt;code class=&quot;language-text&quot;&gt;import *&lt;/code&gt;은 피하도록
+하자. 이는 모듈이름이 겹칠 경우 이전에 import된 모듈을 덮어쓰게된다. 만약
+최하위 모듈까지 import했는데도 이름이 겹치게 되면 as를 이용해서 이름을 새로
+선언해주자.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;conda 장점.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;conda는 어디에서 가상환경을 생성하던지 한곳으로 자동으로 env를 생성해 주기
+때문에, 관리가 편하다. virtualenvwrapper같은 경우에는 항상 경로를 지정해서
+생성해주는 번거로움을 workon으로 간단하게 입력하기만 하면 된다.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20190607 TIL]]></title><description><![CDATA[vim 단축키를 추가로 습득했다! v를 눌러서 VISUAL 모드 전환 후 영역을 선택해서 :를 통해 커맨드창을 열어 준 후
+  를 입력하게 되면, 앞 쪽 1개의 문자가 지워진다. 2개를 지우고싶으면
+2x를 해주면 된다. v를 누르고 VISUAL…]]></description><link>https://kylexid.github.io/20190607TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190607TIL/</guid><pubDate>Fri, 07 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;vim 단축키를 추가로 습득했다!&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;v를 눌러서 VISUAL 모드 전환 후 영역을 선택해서 :를 통해 커맨드창을 열어 준 후
+&lt;code class=&quot;language-text&quot;&gt;norm 1x&lt;/code&gt; 를 입력하게 되면, 앞 쪽 1개의 문자가 지워진다. 2개를 지우고싶으면
+2x를 해주면 된다.&lt;/li&gt;
+&lt;li&gt;v를 누르고 VISUAL 모드를 진입 후 &lt;code class=&quot;language-text&quot;&gt;norm i&amp;lt;원하는문자&amp;gt;&lt;/code&gt;입력시 앞에 해당 문자가
+입력된다. 보통 주석처리할 때 편하다. 물론 확장자별로 자동으로 주석을
+달아주는 vim 플러그인이 존재하긴해서, 그걸 쓰는게 더 편할지도,,,모르겠다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;rebase에 관한 추가 사항!&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;작업 도중 마스터에서 pull을 받아올 시 작업 중에 merge된 branch의 commit
+message까지 rebase list에 남게 된다. 이를 반드시 확인하고, 이를 제외하고
+squash를 해주자!!!!!!&lt;/li&gt;
+&lt;li&gt;rebase를 되돌리고 싶을때 reflog 명령어를 사용해서 rebase하기 직전의 커밋을
+찾아 커밋의 해쉬값 또는 HEAD@{숫자}값을 확인하여
+&lt;code class=&quot;language-text&quot;&gt;git rest --hard &amp;lt;commit&amp;gt;&lt;/code&gt;을 입력해주자.&lt;/li&gt;
+&lt;li&gt;이전의 실행한 reset을 취소할 땐 &lt;code class=&quot;language-text&quot;&gt;git reset --hard ORIG_HEAD&lt;/code&gt;를 입력해주자.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;파이썬 f-string에 대해 알아두자!&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://realpython.com/python-f-strings/&quot;&gt;https://realpython.com/python-f-strings/&lt;/a&gt; 를 참고해서 f-string을 정리하자!&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20190606 TIL]]></title><description><![CDATA[git commit에 대해! 과거 커밋을 수정하고 싶을 땐   를 입력한다 이때
+입력된 commit 시점의 이후의 커밋 목록이 표시된다. 그 중에서 수정하려는
+커밋을 찾아서 그 행의 pick을 edit…]]></description><link>https://kylexid.github.io/20190606TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190606TIL/</guid><pubDate>Thu, 06 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;git commit에 대해!&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;과거 커밋을 수정하고 싶을 땐 &lt;code class=&quot;language-text&quot;&gt;git rebase -i &amp;lt;commit&amp;gt;&lt;/code&gt; 를 입력한다 이때
+입력된 commit 시점의 이후의 커밋 목록이 표시된다. 그 중에서 수정하려는
+커밋을 찾아서 그 행의 pick을 edit로 변경하고 저장한다. 그 후 수정하고 싶은
+파일을 편집하거나 그대로 두거나 한 뒤에, —amend 옵션을 지정하여 커밋을
+실행한다.
+&lt;code class=&quot;language-text&quot;&gt;git commit --amend&lt;/code&gt;
+마지막으로 &lt;code class=&quot;language-text&quot;&gt;--continue&lt;/code&gt; 옵션을 지정하여 rebase를 다시 실행해주자.
+&lt;code class=&quot;language-text&quot;&gt;git rebase --continue&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20190605 TIL]]></title><description><![CDATA[ENUM 필드 or 튜플을 이용하여 장고 choices 사용 시 display하는 법 모델 객체에 대해   메서드를 호출할 시 튜플의 두번째 값을
+얻을 수 있다. 이 메서드는 장고에서 기본적으로 지원해주는 메서드이다. related_name…]]></description><link>https://kylexid.github.io/20190605TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190605TIL/</guid><pubDate>Wed, 05 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;ENUM 필드 or 튜플을 이용하여 장고 choices 사용 시 display하는 법&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;모델 객체에 대해 &lt;code class=&quot;language-text&quot;&gt;get_필드명_display()&lt;/code&gt; 메서드를 호출할 시 튜플의 두번째 값을
+얻을 수 있다. 이 메서드는 장고에서 기본적으로 지원해주는 메서드이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;related_name옵션은 포린키로 연결한 모델에서 해당 이름으로 접근할 수 있게만들어주는 키이다.&lt;/h3&gt;
+&lt;h3&gt;관계형 데이터베이스시 remind&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;기본적으로 관계형 데이터베이스를 사용 할 때, 테이블에서 id값을 가져와서
+접근하는 것이 맞다. 하지만 id값은 하드코딩하는 것이 아니라, 다른 값을
+이용해서 얻어와서 넣는 것이 일반적이다.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[장고 values()와 values_list()의 차이점]]></title><description><![CDATA[Django values() vs values_list() values() 딕셔너리를 포함한 쿼리셋을 반환한다. values_list() 튜플로 이루어진 쿼리셋을 반환한다. flat=True 옵션을 주면, 튜플이 아닌 하나의 값의 쿼리셋을 반환한다.]]></description><link>https://kylexid.github.io/django-values-vs-values_list/</link><guid isPermaLink="false">https://kylexid.github.io/django-values-vs-values_list/</guid><pubDate>Tue, 04 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Django values() vs values_list()&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;values()&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;딕셔너리를 포함한 쿼리셋을 반환한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;Wecode&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;objects&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;values&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;야간반&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;QuerySet &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;야간반&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;min&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;야간반&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;jun&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;야간반&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;yeon&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;values_list()&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;튜플로 이루어진 쿼리셋을 반환한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;Wecode&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;objects&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;values_list&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;야간반&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;QuerySet &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;min&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;jun&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;yeon&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;flat=True 옵션을 주면, 튜플이 아닌 하나의 값의 쿼리셋을 반환한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;Wecode&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;objects&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;values_list&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;야간반&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; flat&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;QuerySet &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;min&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;jun&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;yeon&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20190604 TIL]]></title><description><![CDATA[장고 primary key 설정 remind 장고는 따로 pk값을 설정하지 않는경우 id라는 AutoField를 만들어서 pk 값을 관리
+한다. AutoField는 1부터 시작하여 자동으로 값이 1씩 증가하는 필드이다. 만약 임의로 컬럼에 pk…]]></description><link>https://kylexid.github.io/20190604TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190604TIL/</guid><pubDate>Tue, 04 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;장고 primary key 설정 remind&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;장고는 따로 pk값을 설정하지 않는경우 id라는 AutoField를 만들어서 pk 값을 관리
+한다. AutoField는 1부터 시작하여 자동으로 값이 1씩 증가하는 필드이다.&lt;/li&gt;
+&lt;li&gt;만약 임의로 컬럼에 pk값을 주고싶을 경우에는 필드에 &lt;code class=&quot;language-text&quot;&gt;primary_key=True&lt;/code&gt; 라는
+옵션을 지정해주면 된다. 해당 pk컬럼의 값은 수정할 수 없음을 인지하자.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;장고 values()와 values_list()의 차이점에 대해 알게 되었다.&lt;/h3&gt;
+&lt;h3&gt;git 브랜치 이름 변경하는 법에 대해 알게 되었다.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git branch -m past_branch_name new_branch_name&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20190527 TIL]]></title><description><![CDATA[이진수의 길이를 n만큼 추가하는 법에 대해 배웠다. 
+이진수의 길이를 n개만큼 0을 추가해주는 방법. replace 함수에 대해 알게되었다. 리스트를 문자열로 변환하는 방법에 대해 다시 remind 하게되었다. join…]]></description><link>https://kylexid.github.io/20190527TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190527TIL/</guid><pubDate>Mon, 27 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;이진수의 길이를 n만큼 추가하는 법에 대해 배웠다.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;f&amp;#39;0{n}b&amp;#39;&lt;/code&gt;
+이진수의 길이를 n개만큼 0을 추가해주는 방법.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;replace 함수에 대해 알게되었다.&lt;/h3&gt;
+&lt;h3&gt;리스트를 문자열로 변환하는 방법에 대해 다시 remind 하게되었다.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;join 메서드 사용
+파이썬 내장 메서드로 &lt;code class=&quot;language-text&quot;&gt;&amp;#39;&amp;#39;.join(list)&lt;/code&gt; 형식으로 리스트를 스트링으로 변환할 수 있다.&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;&amp;#39;&amp;#39;&lt;/code&gt;안에 들어가는 것에 따라 스트링을 변환하는 방법이 다르다.  &lt;/li&gt;
+&lt;li&gt;종류는 &lt;code class=&quot;language-text&quot;&gt;&amp;#39;&amp;#39;&lt;/code&gt;. &lt;code class=&quot;language-text&quot;&gt;&amp;#39; &amp;#39;&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;&amp;#39;-&amp;#39;&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;&amp;#39;\n&amp;#39;&lt;/code&gt;&lt;br&gt;
+순서대로 공백없이,공백을이용해서,’-‘문자를 이용해서, 한줄에 하나씩 출력한다.  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;파이썬 장고에서 objects 쿼리셋에 접근할때 가독성 때문에 줄나눔을 하는 경우에 대해 알게되었다.&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;objects \
+&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;filer&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위와 같은 방법으로 하면 된다.&lt;/p&gt;
+&lt;h3&gt;장고에서 DB를 인덱싱 하는 방법에 대해 알게 되었다.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;필드속성에 `db_index=True’를 설정해주면 된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;데이터 생성후 M2M필드 할당하는 법에 대해 배웠다.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터 생성후에 M2M필드는 바로 할당하기 위해서. &lt;code class=&quot;language-text&quot;&gt;set()&lt;/code&gt; 또는 &lt;code class=&quot;language-text&quot;&gt;add()&lt;/code&gt;를 이용하도록 하자.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;get 과 filter의 차이에 대해 다시한번 remind.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;get은 exist를 사용할 수 없고, filter는 가능하다.&lt;br&gt;
+get은 해당 값이 있는지 확인하기 위해서 try, except문을 사용하여야 한다.&lt;/li&gt;
+&lt;li&gt;get은 값을 가져와서 바로 컬럼값에 접근 가능하다. 예를들어 &lt;code class=&quot;language-text&quot;&gt;User.objects.get(id=~~).id&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20190524 TIL]]></title><description><![CDATA[mysql에 언어가 제대로 인식이 안된 문제 mysql을 사용하면서 데이터베이스를 생성할때 생긴 문제이다. 만 할 경우에 한글이 인식이 안되는 문제가 있다. 처음에도 배웠지만 항상 데이터베이스 설정을 할때 utf…]]></description><link>https://kylexid.github.io/20190524TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190524TIL/</guid><pubDate>Fri, 24 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;mysql에 언어가 제대로 인식이 안된 문제&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;mysql을 사용하면서 데이터베이스를 생성할때 생긴 문제이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;CREATE DATABASE dataname&lt;/code&gt;만 할 경우에 한글이 인식이 안되는 문제가 있다.&lt;br&gt;
+처음에도 배웠지만 항상 데이터베이스 설정을 할때 utf8설정을 해주는 것을 잊지말자!&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;CREATE DATABASE mydatabase CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;AttributeError: ‘NoneType’ object has no attribute ‘strip’ 에러&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터베이스 언어설정을 해주지 않아서 생긴 문제이지만, 해결하는 방법이 있었다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;해당 데이터를 입력할때 &lt;code class=&quot;language-text&quot;&gt;.strip()&lt;/code&gt;또는 &lt;code class=&quot;language-text&quot;&gt;strip&lt;/code&gt; 을 해주면된다.&lt;br&gt;
+저 상태로 저장된 값을 다시 불러올때는 불러오는 값 뒤에 &lt;code class=&quot;language-text&quot;&gt;()&lt;/code&gt;를 입력해주면 된다.&lt;/p&gt;
+&lt;h3&gt;자기자신에게 M2M필드를 거는 법&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;M2M필드를 self로 걸때 장고에서 설정해줘야하는 법을 알게 되었다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;M2M 필드가 동일한 모델을 쓰는 경우 해결 방법&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;M2M필드가 동일한 모델을 참조하여 쓰는 경우 해당 컬럼이 어떤 관계인지 명확하게 표현을 해주어야 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;단순한 python syntax guide&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;긴 문장은 &lt;code class=&quot;language-text&quot;&gt;&amp;quot;&amp;quot;&lt;/code&gt;, 키값과 같은 값은 &lt;code class=&quot;language-text&quot;&gt;&amp;#39;&amp;#39;&lt;/code&gt;를 사용하자.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20190523 TIL]]></title><description><![CDATA[Django ‘in’문법에 대해 알게 되었다. in은 해당 내용이 포함된 값을 filter로 찾아낼 때 주로 사용된다. 입력 값의 형태는 순서형 자료(리스트, 튜플, 쿼리셋)를 사용할 수 있다. 또한 문자열도 입력 가능하지만, 자주 사용되지는 않는다.]]></description><link>https://kylexid.github.io/20190523TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190523TIL/</guid><pubDate>Thu, 23 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Django ‘in’문법에 대해 알게 되었다.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;in은 해당 내용이 포함된 값을 filter로 찾아낼 때 주로 사용된다.&lt;br&gt;
+입력 값의 형태는 순서형 자료(리스트, 튜플, 쿼리셋)를 사용할 수 있다.&lt;br&gt;
+또한 문자열도 입력 가능하지만, 자주 사용되지는 않는다.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Django QuerySet in]]></title><description><![CDATA[Django ‘in’ in은 해당 내용이 포함된 값을 filter…]]></description><link>https://kylexid.github.io/190523django-in/</link><guid isPermaLink="false">https://kylexid.github.io/190523django-in/</guid><pubDate>Thu, 23 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Django ‘in’&lt;/h2&gt;
+&lt;p&gt;in은 해당 내용이 포함된 값을 filter로 찾아낼 때 주로 사용된다.
+입력 값의 형태는 순서형 자료(리스트, 튜플, 쿼리셋)를 사용할 수 있다.
+또한 문자열도 입력 가능하지만, 자주 사용되지는 않는다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;Topic&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;objects&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;id__in&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#아이디 1, 5인 데이터를 추출&lt;/span&gt;
+Topic&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;objects&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;name__in&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;sers&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#name에 &quot;sers&quot;가 포함된 데이터를 모두 추출&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;쿼리셋을 입력값으로 주는 경우&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;inner_qs &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; User&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;objects&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;name__cotains&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Kyle&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#먼저 찾으려는 쿼리셋 추출&lt;/span&gt;
+topics &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Topic&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;objects&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;user__in&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;inner_qs&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#해당 쿼리셋을 저장한 변수를 입력&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;찾으려는 QuarySet을 value() 또는 values_list()로 한번더 데이터를 정리한 뒤 입력값으로 줄 경우에는 필
+드의 값은 하나의 필드값만 추출해줘야한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;inner_qs &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; User&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;objects&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;name__cotains&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Kyle&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;values&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;id&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;name&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#잘못된 방법.&lt;/span&gt;
+inner_qs &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; User&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;objects&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;name__cotains&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Kyle&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;values&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;name&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#하나의 필드로만 추출해올 것&lt;/span&gt;
+topics &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Topic&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;objects&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;user__in&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;inner_qs&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
