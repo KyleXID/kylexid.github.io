@@ -3,7 +3,9 @@
 <url> <loc>https://kylexid.github.io/category/til/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kylexid.github.io/category/testimonies/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kylexid.github.io/category/sayings/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kylexid.github.io/TIL/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kylexid.github.io/20190620TIL/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kylexid.github.io/20190619TIL/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kylexid.github.io/20190618TIL/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kylexid.github.io/like-nonsense/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kylexid.github.io/i-may-not-have-gone/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kylexid.github.io/i-have-not-failed/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -15,9 +17,6 @@
 <url> <loc>https://kylexid.github.io/you-only-live-once/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kylexid.github.io/be-who-you-are/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kylexid.github.io/two-things-are-infinite/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kylexid.github.io/privacy/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kylexid.github.io/front-end-dev/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kylexid.github.io/starters/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kylexid.github.io/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kylexid.github.io/category/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kylexid.github.io/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
