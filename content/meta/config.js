@@ -2,8 +2,8 @@ module.exports = {
   siteTitle: "몬스터코딩 - 백엔드 블로그", // <title>
   shortSiteTitle: "몬스터코딩", // <title> ending for posts and pages
   siteDescription: "백엔드 개발공부하는 블로그입니다.",
-  siteUrl: "https://kylexid.github.io/",
-  // pathPrefix: "",
+  siteUrl: "https://kylexid.github.io",
+  pathPrefix: "/",
   siteImage: "preview.jpg",
   siteLanguage: "en",
 
