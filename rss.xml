@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[몬스터코딩 - 백엔드 블로그]]></title><description><![CDATA[백엔드 개발공부하는 블로그입니다.]]></description><link>https://kylexid.github.io</link><generator>RSS for Node</generator><lastBuildDate>Tue, 02 Jul 2019 16:17:10 GMT</lastBuildDate><item><title><![CDATA[20190620 TIL]]></title><description><![CDATA[동시에 request가 올 경우 데이터를 처리하는 방법에 대해,, queue를 이용하여 데이터를 쌓고 하나씩 처리하는 방법이 있다. transaction 자체가 lock의 역할을 할 수 있다.]]></description><link>https://kylexid.github.io/20190620TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190620TIL/</guid><pubDate>Thu, 20 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;동시에 request가 올 경우 데이터를 처리하는 방법에 대해,,&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[몬스터코딩 - 백엔드 블로그]]></title><description><![CDATA[백엔드 개발공부하는 블로그입니다.]]></description><link>https://kylexid.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 03 Jul 2019 10:58:40 GMT</lastBuildDate><item><title><![CDATA[20190620 TIL]]></title><description><![CDATA[동시에 request가 올 경우 데이터를 처리하는 방법에 대해,, queue를 이용하여 데이터를 쌓고 하나씩 처리하는 방법이 있다. transaction 자체가 lock의 역할을 할 수 있다.]]></description><link>https://kylexid.github.io/20190620TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190620TIL/</guid><pubDate>Thu, 20 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;동시에 request가 올 경우 데이터를 처리하는 방법에 대해,,&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;queue를 이용하여 데이터를 쌓고 하나씩 처리하는 방법이 있다.&lt;/li&gt;
 &lt;li&gt;transaction 자체가 lock의 역할을 할 수 있다.&lt;/li&gt;
@@ -267,6 +267,18 @@ squash를 해주자!!!!!!&lt;/li&gt;
 &lt;li&gt;기본적으로 관계형 데이터베이스를 사용 할 때, 테이블에서 id값을 가져와서
 접근하는 것이 맞다. 하지만 id값은 하드코딩하는 것이 아니라, 다른 값을
 이용해서 얻어와서 넣는 것이 일반적이다.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20190604 TIL]]></title><description><![CDATA[장고 primary key 설정 remind 장고는 따로 pk값을 설정하지 않는경우 id라는 AutoField를 만들어서 pk 값을 관리
+한다. AutoField는 1부터 시작하여 자동으로 값이 1씩 증가하는 필드이다. 만약 임의로 컬럼에 pk…]]></description><link>https://kylexid.github.io/20190604TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190604TIL/</guid><pubDate>Tue, 04 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;장고 primary key 설정 remind&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;장고는 따로 pk값을 설정하지 않는경우 id라는 AutoField를 만들어서 pk 값을 관리
+한다. AutoField는 1부터 시작하여 자동으로 값이 1씩 증가하는 필드이다.&lt;/li&gt;
+&lt;li&gt;만약 임의로 컬럼에 pk값을 주고싶을 경우에는 필드에 &lt;code class=&quot;language-text&quot;&gt;primary_key=True&lt;/code&gt; 라는
+옵션을 지정해주면 된다. 해당 pk컬럼의 값은 수정할 수 없음을 인지하자.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;장고 values()와 values_list()의 차이점에 대해 알게 되었다.&lt;/h3&gt;
+&lt;h3&gt;git 브랜치 이름 변경하는 법에 대해 알게 되었다.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git branch -m past_branch_name new_branch_name&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[장고 values()와 values_list()의 차이점]]></title><description><![CDATA[Django values() vs values_list() values() 딕셔너리를 포함한 쿼리셋을 반환한다. values_list() 튜플로 이루어진 쿼리셋을 반환한다. flat=True 옵션을 주면, 튜플이 아닌 하나의 값의 쿼리셋을 반환한다.]]></description><link>https://kylexid.github.io/django-values-vs-values_list/</link><guid isPermaLink="false">https://kylexid.github.io/django-values-vs-values_list/</guid><pubDate>Tue, 04 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Django values() vs values_list()&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -294,18 +306,6 @@ squash를 해주자!!!!!!&lt;/li&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20190604 TIL]]></title><description><![CDATA[장고 primary key 설정 remind 장고는 따로 pk값을 설정하지 않는경우 id라는 AutoField를 만들어서 pk 값을 관리
-한다. AutoField는 1부터 시작하여 자동으로 값이 1씩 증가하는 필드이다. 만약 임의로 컬럼에 pk…]]></description><link>https://kylexid.github.io/20190604TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190604TIL/</guid><pubDate>Tue, 04 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;장고 primary key 설정 remind&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;장고는 따로 pk값을 설정하지 않는경우 id라는 AutoField를 만들어서 pk 값을 관리
-한다. AutoField는 1부터 시작하여 자동으로 값이 1씩 증가하는 필드이다.&lt;/li&gt;
-&lt;li&gt;만약 임의로 컬럼에 pk값을 주고싶을 경우에는 필드에 &lt;code class=&quot;language-text&quot;&gt;primary_key=True&lt;/code&gt; 라는
-옵션을 지정해주면 된다. 해당 pk컬럼의 값은 수정할 수 없음을 인지하자.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;장고 values()와 values_list()의 차이점에 대해 알게 되었다.&lt;/h3&gt;
-&lt;h3&gt;git 브랜치 이름 변경하는 법에 대해 알게 되었다.&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git branch -m past_branch_name new_branch_name&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20190527 TIL]]></title><description><![CDATA[이진수의 길이를 n만큼 추가하는 법에 대해 배웠다. 
 이진수의 길이를 n개만큼 0을 추가해주는 방법. replace 함수에 대해 알게되었다. 리스트를 문자열로 변환하는 방법에 대해 다시 remind 하게되었다. join…]]></description><link>https://kylexid.github.io/20190527TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190527TIL/</guid><pubDate>Mon, 27 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;이진수의 길이를 n만큼 추가하는 법에 대해 배웠다.&lt;/h3&gt;
 &lt;ul&gt;
