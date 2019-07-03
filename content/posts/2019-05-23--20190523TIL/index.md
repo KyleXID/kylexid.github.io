@@ -1,0 +1,11 @@
+---
+title: 20190523 TIL
+category: "TIL"
+cover: django-logo-negative.png
+author: KyleXID
+---
+
+### Django 'in'문법에 대해 알게 되었다.
+- in은 해당 내용이 포함된 값을 filter로 찾아낼 때 주로 사용된다.  
+  입력 값의 형태는 순서형 자료(리스트, 튜플, 쿼리셋)를 사용할 수 있다.  
+  또한 문자열도 입력 가능하지만, 자주 사용되지는 않는다.
