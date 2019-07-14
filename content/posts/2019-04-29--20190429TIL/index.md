@@ -1,0 +1,53 @@
+---
+title:  "django relative path & python map function"
+category: "TIL"
+cover: blog0429.png
+author: KyleXID
+---
+
+## 상대 경로 개념
+
+오늘 장고로 미니터 API를 만들면서 상대경로 때문에 에러가 발생했다.  
+  
+..를 하면 어디서든 상위경로로 들어갈 수 있다고 생각 해서 postminit이라는 앱에서 user앱에서 넘어가려고 했으나 실패했다.  
+
+<br/>
+예시)  
+
+![](./blog0429.png)  
+
+<br/>
+이유는 상대경로는 최상위 루트를 벗어날 수 없기 때문이다. 이는 시스템 자체에 접근하는 것을 막기 위해 설정되어있다.  
+
+이런 경우에는 절대경로를 써주는 것이 좋다.  
+
+<br/>
+
+## 파이썬 내장함수 map()  
+
+예시)  
+
+```python
+def myfunc(n):
+  return len(n)
+
+x = map(myfunc, ('apple', 'banana', 'cherry'))
+```
+
+파이썬에는 내장함수 `map()`이 존재한다. `map()`은  함수와 그 함수를 적용할 자료를 input으로 받는다.  
+
+위의 결과는 아래와 같다.  
+```python
+['5', '6', '6']
+```
+
+`map()`은 `myfunc`이라는 함수를 반복적으로 모든 인자에 수행한 후 그 결과를 `return` 한다.  
+
+다음과 같이 사용할 수도 있다.  
+
+```python
+a1, a2 = map(int, a[:-1].split('+'))
+b1, b2 = map(int, b[:-1].split('+'))
+```
+
+이는 각 `split`하고 `slice`한 배열 a1,a2를 `int`라는 함수를 반복적으로 적용하여 data type을 number로 반환해 준다.

@@ -9,11 +9,11 @@ author: KyleXID
 - python datetime을 사용하여 하는 방법에 대해 알게되었다.
 ```python
 exposure_product=pytz.utc.localize(
-    datetime.datetime.strptime(
-        product_dict['exposure_product'],
-        "%Y-%m-%d %H:%M"
-    )
-)
+		datetime.datetime.strptime(
+        	product_dict['exposure_product'],
+        	"%Y-%m-%d %H:%M"
+    	)
+	)
 ```
 - 가장 위의 pytz라이브러리는 파이썬 datetime으로 위와같이 값을 입력할 시 timezone설정이 안되기 때문에, pytz를 import하여 로컬라이즈를 해준다.  
   [관련 스택오버플로우](https://stackoverflow.com/questions/34817109/python-string-to-django-timezone-aware-datetime)

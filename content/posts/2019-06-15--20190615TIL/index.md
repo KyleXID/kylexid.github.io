@@ -7,7 +7,7 @@ author: KyleXID
 
 ### 장고 서버 돌릴 때 엔드포인트 관련 경고메세지 안뜨게 하는 법
 - 장고 프레임워크를 사용하면서, 엔드포인트를 작성시 프로젝트단의 엔드포인트 주소 뒤에 '/'를 쓰지 않고 앱 urls.py에서 앱앞에 '/'를 쓸 경우 다음과 같은 에러메서지를 출력한다.
-```
+```terminal
 ?: (urls.W002) Your URL pattern '^/logout$' has a regex beginning with a '/'. Remove this slash as it is unnecessary.
 ```
 - 이 에러를 피하기 위해서는 `APPEND_SLASH = False`를 settings.py에 추가해 주자.
