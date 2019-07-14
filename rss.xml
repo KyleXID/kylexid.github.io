@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[몬스터코딩 - 백엔드 블로그]]></title><description><![CDATA[백엔드 개발공부하는 블로그입니다.]]></description><link>https://kylexid.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 10 Jul 2019 00:25:30 GMT</lastBuildDate><item><title><![CDATA[20190620 TIL]]></title><description><![CDATA[동시에 request가 올 경우 데이터를 처리하는 방법에 대해,, queue를 이용하여 데이터를 쌓고 하나씩 처리하는 방법이 있다. transaction 자체가 lock의 역할을 할 수 있다.]]></description><link>https://kylexid.github.io/20190620TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190620TIL/</guid><pubDate>Thu, 20 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;동시에 request가 올 경우 데이터를 처리하는 방법에 대해,,&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[몬스터코딩 - 백엔드 블로그]]></title><description><![CDATA[백엔드 개발공부하는 블로그입니다.]]></description><link>https://kylexid.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 14 Jul 2019 15:41:18 GMT</lastBuildDate><item><title><![CDATA[20190621 TIL]]></title><description><![CDATA[장고 subquery() 장고에서는 SQL서브쿼리식을 사용할 수 있다. 추후에 더 찾아보고 공부하자. 장고  djang-extentsions 기능 중 하나로 기존  과 다르게 작성된 모델을 모두 import…]]></description><link>https://kylexid.github.io/20190621TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190621TIL/</guid><pubDate>Fri, 21 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;장고 subquery()&lt;/h3&gt;
+&lt;p&gt;장고에서는 SQL서브쿼리식을 사용할 수 있다.&lt;br&gt;
+추후에 더 찾아보고 공부하자.&lt;/p&gt;
+&lt;h3&gt;장고 &lt;code class=&quot;language-text&quot;&gt;shell_plus&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;djang-extentsions 기능 중 하나로 기존 &lt;code class=&quot;language-text&quot;&gt;python manage.py shell&lt;/code&gt;과 다르게 작성된 모델을 모두 import해줘서 훨씬 편하게 작업을 할 수 있다.&lt;/p&gt;
+&lt;h3&gt;파이썬 pprint&lt;/h3&gt;
+&lt;p&gt;Python Data Pretty Print&lt;br&gt;
+파이썬에 기본내장된 모듈이다. 복잡한 자료구조형태를 가독성이 좋게 보여준다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[20190620 TIL]]></title><description><![CDATA[동시에 request가 올 경우 데이터를 처리하는 방법에 대해,, queue를 이용하여 데이터를 쌓고 하나씩 처리하는 방법이 있다. transaction 자체가 lock의 역할을 할 수 있다.]]></description><link>https://kylexid.github.io/20190620TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190620TIL/</guid><pubDate>Thu, 20 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;동시에 request가 올 경우 데이터를 처리하는 방법에 대해,,&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;queue를 이용하여 데이터를 쌓고 하나씩 처리하는 방법이 있다.&lt;/li&gt;
 &lt;li&gt;transaction 자체가 lock의 역할을 할 수 있다.&lt;/li&gt;
@@ -7,10 +14,10 @@
 &lt;li&gt;
 &lt;p&gt;python datetime을 사용하여 하는 방법에 대해 알게되었다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;exposure_product&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;pytz&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;utc&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;localize&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
-datetime&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;datetime&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;strptime&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
-    product_dict&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;exposure_product&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;token string&quot;&gt;&quot;%Y-%m-%d %H:%M&quot;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+	datetime&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;datetime&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;strptime&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    	product_dict&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;exposure_product&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    	&lt;span class=&quot;token string&quot;&gt;&quot;%Y-%m-%d %H:%M&quot;&lt;/span&gt;
+	&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/li&gt;
 &lt;li&gt;가장 위의 pytz라이브러리는 파이썬 datetime으로 위와같이 값을 입력할 시 timezone설정이 안되기 때문에, pytz를 import하여 로컬라이즈를 해준다.&lt;br&gt;
