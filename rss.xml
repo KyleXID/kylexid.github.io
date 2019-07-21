@@ -1,4 +1,229 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[몬스터코딩 - 백엔드 블로그]]></title><description><![CDATA[백엔드 개발공부하는 블로그입니다.]]></description><link>https://kylexid.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 14 Jul 2019 15:43:42 GMT</lastBuildDate><item><title><![CDATA[20190626 TIL]]></title><description><![CDATA[장고 마이그레이션시 데이터 충돌 테스트 환경에서 더미 데이터가 어느정도 갖고있는 필드인데 유니크한 필드로 재 정의를 할 경우, 중복값이 할당 된 경우에 에러가 발생할 수 있다. 더미테스트 상황에는 단순하게 db…]]></description><link>https://kylexid.github.io/20190626TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190626TIL/</guid><pubDate>Wed, 26 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;장고 마이그레이션시 데이터 충돌&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[몬스터코딩 - 백엔드 블로그]]></title><description><![CDATA[백엔드 개발공부하는 블로그입니다.]]></description><link>https://kylexid.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sun, 21 Jul 2019 05:42:35 GMT</lastBuildDate><item><title><![CDATA[파이썬 코딩 도장 리뷰]]></title><description><![CDATA[페이스북 길벗 출판사의 리뷰 이벤트에 신청하고 참여하게 되어 리뷰를 작성하게 되었습니다.   페이스북 길벗 출판사 채널 팔로잉 해두면 다양한 이벤트나 IT…]]></description><link>https://kylexid.github.io/20190719coding_dojang_book_review/</link><guid isPermaLink="false">https://kylexid.github.io/20190719coding_dojang_book_review/</guid><pubDate>Fri, 19 Jul 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;페이스북 길벗 출판사의 리뷰 이벤트에 신청하고 참여하게 되어 리뷰를 작성하게 되었습니다.  &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/gbitbook/&quot;&gt;페이스북 길벗 출판사 채널&lt;/a&gt;&lt;br&gt;
+팔로잉 해두면 다양한 이벤트나 IT서적 관련 정보들이 많이 올라오니 관심있는 분들은 팔로잉하는걸 추천합니다.  &lt;/p&gt;
+&lt;h2&gt;파이썬 코딩 도장&lt;/h2&gt;
+&lt;h3&gt;개발, 외우는 것이 아니라 여러번 부딪혀보는것이 좋다.&lt;/h3&gt;
+&lt;p&gt;내가 개발을 처음 접할 때 들었던 이야기이다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;개발은 무작정 외우는것이 아니라 직접 구현해보고 문제에 부딪히고 해결하는 과정에서 향상한다.&lt;br&gt;
+&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/main-39c083556a7b2073d315023a46c45b74-bff80.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwAEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/9oADAMBAAIQAxAAAAF8iEFLrzzTf//EABkQAQADAQEAAAAAAAAAAAAAAAIBAxEAEv/aAAgBAQABBQJWnUomzzzrewHvf//EABgRAAIDAAAAAAAAAAAAAAAAAAABAhES/9oACAEDAQE/AY5RSP/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AVf/xAAbEAACAQUAAAAAAAAAAAAAAAAAARAhMUFRgf/aAAgBAQAGPwLuhNGR0LR//8QAHBAAAgICAwAAAAAAAAAAAAAAAAEhMRFBUWGR/9oACAEBAAE/IUp2pCh2NGbbnwUBZje3Imf/2gAMAwEAAgADAAAAEMsf/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAERIUGhsf/aAAgBAwEBPxBbE9k2On//xAAXEQEAAwAAAAAAAAAAAAAAAAAAETFR/9oACAECAQE/ELS1/8QAHBAAAgIDAQEAAAAAAAAAAAAAAREAITFBcVGx/9oACAEBAAE/EEVmgjivsCwhI6Mu4aFAEgVxMFA1gh57MtIBr72FLdXXJ//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;파이썬 코딩도장표지&quot;
+        title=&quot;&quot;
+        src=&quot;/static/main-39c083556a7b2073d315023a46c45b74-78f2b.jpg&quot;
+        srcset=&quot;/static/main-39c083556a7b2073d315023a46c45b74-dce19.jpg 200w,
+/static/main-39c083556a7b2073d315023a46c45b74-c1413.jpg 400w,
+/static/main-39c083556a7b2073d315023a46c45b74-78f2b.jpg 800w,
+/static/main-39c083556a7b2073d315023a46c45b74-ab4c4.jpg 1200w,
+/static/main-39c083556a7b2073d315023a46c45b74-bc99b.jpg 1600w,
+/static/main-39c083556a7b2073d315023a46c45b74-34a60.jpg 2400w,
+/static/main-39c083556a7b2073d315023a46c45b74-bff80.jpg 4032w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+파이썬 코딩 도장 표지에 써져있는 프로그래밍은 공부가 아닌 연습이라고 하는부분은 크게 와닿는 부분이었다.  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;단계별로 차근차근 학습하게 되어있다.&lt;/h3&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/program1-fb5410e16509b7a4d32e5dc8967e251a-c8efe.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIFAQP/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAP/2gAMAwEAAhADEAAAAbCdUqeYZqmuroZ5gF//xAAcEAABBAMBAAAAAAAAAAAAAAAAAQIDMhAREiH/2gAIAQEAAQUCXDrCj7ei7JN9Ykt//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFxABAQEBAAAAAAAAAAAAAAAAMQAQMP/aAAgBAQAGPwJnCOH/xAAbEAACAgMBAAAAAAAAAAAAAAAAASExEUFRgf/aAAgBAQABPyGwdG6cjYZdDrODwQaOFDGxz//aAAwDAQACAAMAAAAQRD99/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/EErEj//EABcRAQEBAQAAAAAAAAAAAAAAAAEAIRD/2gAIAQIBAT8Qk3i7f//EAB8QAAICAgIDAQAAAAAAAAAAAAABESExQWGBUXGh0f/aAAgBAQABPxBUn5YlUInaHaFilyES5bd0RH4OP0zCqWh+3pjavsuThHYyMjp3o//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;학습 프로그램1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/program1-fb5410e16509b7a4d32e5dc8967e251a-78f2b.jpg&quot;
+        srcset=&quot;/static/program1-fb5410e16509b7a4d32e5dc8967e251a-dce19.jpg 200w,
+/static/program1-fb5410e16509b7a4d32e5dc8967e251a-c1413.jpg 400w,
+/static/program1-fb5410e16509b7a4d32e5dc8967e251a-78f2b.jpg 800w,
+/static/program1-fb5410e16509b7a4d32e5dc8967e251a-ab4c4.jpg 1200w,
+/static/program1-fb5410e16509b7a4d32e5dc8967e251a-bc99b.jpg 1600w,
+/static/program1-fb5410e16509b7a4d32e5dc8967e251a-34a60.jpg 2400w,
+/static/program1-fb5410e16509b7a4d32e5dc8967e251a-c8efe.jpg 3024w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/program2-3a2831bf18a87d71af9f22df676fa033-c8efe.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwABBf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAAB6iEuXbJiYGLKl//EABkQAAIDAQAAAAAAAAAAAAAAAAACARAxIf/aAAgBAQABBQJagW1w6Llf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFxABAQEBAAAAAAAAAAAAAAAAMQAQIP/aAAgBAQAGPwLWZiI4/8QAHhAAAgEDBQAAAAAAAAAAAAAAABEBIVHxEEFhgaH/2gAIAQEAAT8hZFbejWEWzspmOOZIHORM5CdA9P/aAAwDAQACAAMAAAAQfxLA/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQAQEf/aAAgBAwEBPxBuSZ//xAAWEQADAAAAAAAAAAAAAAAAAAABEDH/2gAIAQIBAT8QEQi//8QAHBABAAMBAAMBAAAAAAAAAAAAAQARITFRYXGB/9oACAEBAAE/EDTQvxqUOtjDab5jAtyfJwDev1Epp93UcfaLGAIaSq7O9n//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;학습 프로그램2&quot;
+        title=&quot;&quot;
+        src=&quot;/static/program2-3a2831bf18a87d71af9f22df676fa033-78f2b.jpg&quot;
+        srcset=&quot;/static/program2-3a2831bf18a87d71af9f22df676fa033-dce19.jpg 200w,
+/static/program2-3a2831bf18a87d71af9f22df676fa033-c1413.jpg 400w,
+/static/program2-3a2831bf18a87d71af9f22df676fa033-78f2b.jpg 800w,
+/static/program2-3a2831bf18a87d71af9f22df676fa033-ab4c4.jpg 1200w,
+/static/program2-3a2831bf18a87d71af9f22df676fa033-bc99b.jpg 1600w,
+/static/program2-3a2831bf18a87d71af9f22df676fa033-34a60.jpg 2400w,
+/static/program2-3a2831bf18a87d71af9f22df676fa033-c8efe.jpg 3024w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;막상 책을 사도 계획을 어떻게 잡을지 막연한 사람을 위해 체계적으로 학습할 수 있도록 8주 학습 프로그램을 제공해주고 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;각 파트별 진행 단계 또한 &lt;strong&gt;이론 - 사용 - 퀴즈 - 연습문제 - 심사문제&lt;/strong&gt; 로 이루어져 있기때문에, 학습한 이론에 대해 체계적으로 학습할 수 있다.&lt;/p&gt;
+&lt;h3&gt;온라인 강의 제공&lt;/h3&gt;
+&lt;p&gt;일단 책 자체의 내용은 온라인에 올라와 있고, 무료 동영상 강의나, 바로바로 테스트해볼수 있는 환경을 제공하기 때문에, 파이썬을 처음접하거나, 다시한번 파이썬 기초에 대해 공부하는데 적합한 책이라고 생각한다.&lt;br&gt;
+&lt;a href=&quot;https://dojang.io/&quot;&gt;파이썬 코딩 도장 온라인강의&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/python_coding_dojang_io-a9f9d55c4274868cb6982d0a682eb825-c9998.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 79.71656333038086%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAACMElEQVQ4y31USY7UQBD0X/gMdySegXgAP+ArfIEjEuIKB6SZw0yv7sXdtsuu1XaQkbgG92gGS2mXKzMjI5eqIvx+QP3hM3bvP+HbjzsYF4FpQlOWsCLmeoXZ7eD7HuM4gs8k+knWlbE4Nx0a08OGv36F+3mPhzfvUL79CFNWSKKYphHnqlLZbrc4HI84HA7w3isggb2zqHqPx9piVTs8thEujSjSoYL58hX2+y+MMamQQdM0qOsal8sFpm2RH2Un4p1Da72ybHsHL35pFIZTGuDkxwavYCFGdTifz8rqdDo9rdsZmAxjCKg6h821w1VSHoeB4VBEiRS7DoMYBB+QUlIHAlDW6zVWqxWMMapjME3ZO9g4aJoEyvtFEDACJolAh0G+VDJdggQGEuHesiFWiFhpWC8l8aJ31mqNCycvbjyvEVMlaGa81GkNxY+BmqbFUZrWyxREKVfBTRaYtLMTAY5zZzebjdYwp5v1rHUSkJ4syU4wNGXSP0mnyi5AmvTkcBXDSsaGXSZ4bkjWM2Ujk9DO00BbZUgj01t0zt840IgM9/u9fpcM89jQLteea+4XfFmhnlK8ASQQo3I96EjgRs8a5kYtdcqwlW5mAxpTWDemygFnumwSJc5zaqVuN52fRQHZGDp1HJ/076QQlCyZPgP283l+CTA/N4B0yHNIdqVcDrmG+RxnJs9n80VASjYkOwrT3Mltw0tieVL+y9DxoAsY65MZ5pGhEJDAywF/jeEfBYrXeaXW2ccAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;코딩도장 사이트&quot;
+        title=&quot;&quot;
+        src=&quot;/static/python_coding_dojang_io-a9f9d55c4274868cb6982d0a682eb825-48538.png&quot;
+        srcset=&quot;/static/python_coding_dojang_io-a9f9d55c4274868cb6982d0a682eb825-bed0f.png 200w,
+/static/python_coding_dojang_io-a9f9d55c4274868cb6982d0a682eb825-5fd34.png 400w,
+/static/python_coding_dojang_io-a9f9d55c4274868cb6982d0a682eb825-48538.png 800w,
+/static/python_coding_dojang_io-a9f9d55c4274868cb6982d0a682eb825-b70ec.png 1200w,
+/static/python_coding_dojang_io-a9f9d55c4274868cb6982d0a682eb825-d134a.png 1600w,
+/static/python_coding_dojang_io-a9f9d55c4274868cb6982d0a682eb825-c9998.png 2258w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;자세하게 잘 정리되어있다.  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/none_key-6837089b159cd7d29be3a582de3c3125-38110.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 58.99532710280374%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABYlAAAWJQFJUiTwAAABZ0lEQVQoz31Ty26DMBDkq/Md+Zr8QJRTDzm2p0oRqVAeEDAEbLA9nTWPIBoaabROvJ6d3dlEXduirWtItNai67oA5xwsf7dNA+/9H6x9IvN8okoS6KqCIakxJkAKNKcTmvP57cN3RQSRkKwlGe+gVQ59v6GKY+iiQEflLd+sE1KNUiokTaSO4FnHF9QfnzDnK/IsRXq5IEtTFCReazuSeVVs1wZC/yJldOqJNr7BFoyijIU9BQxJ7wnlsdYGyUNBGRohiUQwxdIcwnYtHAv7oZjcrbYcEohzUSMpaYbrq0sweUFTfqDZaleWPaFz/5oTjQeVP9ijm81xOM8x5LayCVwniUu1gVD2735Pw+W8KuZ751/z1YwNUckODzMdTQqEYkxK9+bO+RnBhKHgdbfD12aDbL/vcyhoUjiqEqdlhbTWIc7VLseQHQ743m5RHI/93dB2UDg+lN0qOfiafzfBknBSvjRl8f0Xi2Gt4Hq6P7oAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;등록키?&quot;
+        title=&quot;&quot;
+        src=&quot;/static/none_key-6837089b159cd7d29be3a582de3c3125-48538.png&quot;
+        srcset=&quot;/static/none_key-6837089b159cd7d29be3a582de3c3125-bed0f.png 200w,
+/static/none_key-6837089b159cd7d29be3a582de3c3125-5fd34.png 400w,
+/static/none_key-6837089b159cd7d29be3a582de3c3125-48538.png 800w,
+/static/none_key-6837089b159cd7d29be3a582de3c3125-b70ec.png 1200w,
+/static/none_key-6837089b159cd7d29be3a582de3c3125-d134a.png 1600w,
+/static/none_key-6837089b159cd7d29be3a582de3c3125-38110.png 1712w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;연습문제를 풀때 강좌 등록을 요구하지만 등록하는데 키는 따로 필요없기때문에 무료로 파이썬을 학습할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;나 역시 파이썬에 다시 처음부터 정리하고 싶어서 리뷰이벤트에 신청하게 되었고, 운 좋게 리뷰어에 선정되어 책을 받게 되었다.  &lt;/p&gt;
+&lt;p&gt;아직 책을 완독하지는 못했지만, 꼼꼼하게 강의를 들으면서 공부를 할 수 있고, 이전에 공부했던 파이썬을 다시한번 remind하는 느낌으로 보는데도 놓치고 잊고있던 부분들을 다시한번 잡을 수 있어서 만족스러웠다.  &lt;/p&gt;
+&lt;h4&gt;책을 추천하는 사람&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;파이썬에 대해 차근차근 공부하고싶은데 마땅히 피드백을 줄 사람이 없는 경우&lt;/li&gt;
+&lt;li&gt;파이썬에 대해 배웠지만 다시 한번 파이썬 이론에 대해 학습하고 싶은 개발자&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;장점&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;체계적인 학습 프로그램을 제공하여 차근차근 학습할 수 있다.&lt;/li&gt;
+&lt;li&gt;온라인으로 모든 정보가 공개되어 있고, 무료로 학습할 수 있다.&lt;/li&gt;
+&lt;li&gt;온라인을 통해 직접 문제풀이를 하고 연습문제/심사문제를 통해 학습한 내용에 대해 제대로 확인 할 수있다.&lt;/li&gt;
+&lt;li&gt;스마트폰으로도 학습 할 수 있기때문에, 출퇴근 길이나 이동시간이 긴 경우 모바일로 학습할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;아쉬운 점&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;파이썬과 함께 Database를 다루는 내용이 부족해서 약간 아쉽긴 했다.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20190626 TIL]]></title><description><![CDATA[장고 마이그레이션시 데이터 충돌 테스트 환경에서 더미 데이터가 어느정도 갖고있는 필드인데 유니크한 필드로 재 정의를 할 경우, 중복값이 할당 된 경우에 에러가 발생할 수 있다. 더미테스트 상황에는 단순하게 db…]]></description><link>https://kylexid.github.io/20190626TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190626TIL/</guid><pubDate>Wed, 26 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;장고 마이그레이션시 데이터 충돌&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;테스트 환경에서 더미 데이터가 어느정도 갖고있는 필드인데 유니크한 필드로 재 정의를 할 경우, 중복값이 할당 된 경우에 에러가 발생할 수 있다.&lt;/li&gt;
 &lt;li&gt;더미테스트 상황에는 단순하게 db를 조작해주기만 하면 되지만, 실제 상황에서는 이런 일이 발생하지 않ㄷ도록 항상 주의하도록하자.&lt;/li&gt;
@@ -335,18 +560,6 @@ squash를 해주자!!!!!!&lt;/li&gt;
 &lt;li&gt;기본적으로 관계형 데이터베이스를 사용 할 때, 테이블에서 id값을 가져와서
 접근하는 것이 맞다. 하지만 id값은 하드코딩하는 것이 아니라, 다른 값을
 이용해서 얻어와서 넣는 것이 일반적이다.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20190604 TIL]]></title><description><![CDATA[장고 primary key 설정 remind 장고는 따로 pk값을 설정하지 않는경우 id라는 AutoField를 만들어서 pk 값을 관리
-한다. AutoField는 1부터 시작하여 자동으로 값이 1씩 증가하는 필드이다. 만약 임의로 컬럼에 pk…]]></description><link>https://kylexid.github.io/20190604TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190604TIL/</guid><pubDate>Tue, 04 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;장고 primary key 설정 remind&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;장고는 따로 pk값을 설정하지 않는경우 id라는 AutoField를 만들어서 pk 값을 관리
-한다. AutoField는 1부터 시작하여 자동으로 값이 1씩 증가하는 필드이다.&lt;/li&gt;
-&lt;li&gt;만약 임의로 컬럼에 pk값을 주고싶을 경우에는 필드에 &lt;code class=&quot;language-text&quot;&gt;primary_key=True&lt;/code&gt; 라는
-옵션을 지정해주면 된다. 해당 pk컬럼의 값은 수정할 수 없음을 인지하자.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;장고 values()와 values_list()의 차이점에 대해 알게 되었다.&lt;/h3&gt;
-&lt;h3&gt;git 브랜치 이름 변경하는 법에 대해 알게 되었다.&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git branch -m past_branch_name new_branch_name&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[장고 values()와 values_list()의 차이점]]></title><description><![CDATA[Django values() vs values_list() values() 딕셔너리를 포함한 쿼리셋을 반환한다. values_list() 튜플로 이루어진 쿼리셋을 반환한다. flat=True 옵션을 주면, 튜플이 아닌 하나의 값의 쿼리셋을 반환한다.]]></description><link>https://kylexid.github.io/django-values-vs-values_list/</link><guid isPermaLink="false">https://kylexid.github.io/django-values-vs-values_list/</guid><pubDate>Tue, 04 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Django values() vs values_list()&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -374,6 +587,18 @@ squash를 해주자!!!!!!&lt;/li&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20190604 TIL]]></title><description><![CDATA[장고 primary key 설정 remind 장고는 따로 pk값을 설정하지 않는경우 id라는 AutoField를 만들어서 pk 값을 관리
+한다. AutoField는 1부터 시작하여 자동으로 값이 1씩 증가하는 필드이다. 만약 임의로 컬럼에 pk…]]></description><link>https://kylexid.github.io/20190604TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190604TIL/</guid><pubDate>Tue, 04 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;장고 primary key 설정 remind&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;장고는 따로 pk값을 설정하지 않는경우 id라는 AutoField를 만들어서 pk 값을 관리
+한다. AutoField는 1부터 시작하여 자동으로 값이 1씩 증가하는 필드이다.&lt;/li&gt;
+&lt;li&gt;만약 임의로 컬럼에 pk값을 주고싶을 경우에는 필드에 &lt;code class=&quot;language-text&quot;&gt;primary_key=True&lt;/code&gt; 라는
+옵션을 지정해주면 된다. 해당 pk컬럼의 값은 수정할 수 없음을 인지하자.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;장고 values()와 values_list()의 차이점에 대해 알게 되었다.&lt;/h3&gt;
+&lt;h3&gt;git 브랜치 이름 변경하는 법에 대해 알게 되었다.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git branch -m past_branch_name new_branch_name&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20190527 TIL]]></title><description><![CDATA[이진수의 길이를 n만큼 추가하는 법에 대해 배웠다. 
 이진수의 길이를 n개만큼 0을 추가해주는 방법. replace 함수에 대해 알게되었다. 리스트를 문자열로 변환하는 방법에 대해 다시 remind 하게되었다. join…]]></description><link>https://kylexid.github.io/20190527TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190527TIL/</guid><pubDate>Mon, 27 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;이진수의 길이를 n만큼 추가하는 법에 대해 배웠다.&lt;/h3&gt;
 &lt;ul&gt;
@@ -430,11 +655,6 @@ get은 해당 값이 있는지 확인하기 위해서 try, except문을 사용�
 &lt;h3&gt;단순한 python syntax guide&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;긴 문장은 &lt;code class=&quot;language-text&quot;&gt;&amp;quot;&amp;quot;&lt;/code&gt;, 키값과 같은 값은 &lt;code class=&quot;language-text&quot;&gt;&amp;#39;&amp;#39;&lt;/code&gt;를 사용하자.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20190523 TIL]]></title><description><![CDATA[Django ‘in’문법에 대해 알게 되었다. in은 해당 내용이 포함된 값을 filter로 찾아낼 때 주로 사용된다. 입력 값의 형태는 순서형 자료(리스트, 튜플, 쿼리셋)를 사용할 수 있다. 또한 문자열도 입력 가능하지만, 자주 사용되지는 않는다.]]></description><link>https://kylexid.github.io/20190523TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190523TIL/</guid><pubDate>Thu, 23 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Django ‘in’문법에 대해 알게 되었다.&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;in은 해당 내용이 포함된 값을 filter로 찾아낼 때 주로 사용된다.&lt;br&gt;
-입력 값의 형태는 순서형 자료(리스트, 튜플, 쿼리셋)를 사용할 수 있다.&lt;br&gt;
-또한 문자열도 입력 가능하지만, 자주 사용되지는 않는다.&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Django QuerySet in]]></title><description><![CDATA[Django ‘in’ in은 해당 내용이 포함된 값을 filter…]]></description><link>https://kylexid.github.io/190523django-in/</link><guid isPermaLink="false">https://kylexid.github.io/190523django-in/</guid><pubDate>Thu, 23 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Django ‘in’&lt;/h2&gt;
 &lt;p&gt;in은 해당 내용이 포함된 값을 filter로 찾아낼 때 주로 사용된다.
 입력 값의 형태는 순서형 자료(리스트, 튜플, 쿼리셋)를 사용할 수 있다.
@@ -448,7 +668,12 @@ topics &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Topic&lt;span 
 드의 값은 하나의 필드값만 추출해줘야한다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;inner_qs &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; User&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;objects&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;name__cotains&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Kyle&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;values&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;id&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;name&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#잘못된 방법.&lt;/span&gt;
 inner_qs &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; User&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;objects&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;name__cotains&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Kyle&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;values&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;name&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#하나의 필드로만 추출해올 것&lt;/span&gt;
-topics &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Topic&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;objects&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;user__in&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;inner_qs&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[20190522 TIL]]></title><description><![CDATA[Python 람다(lambda)에 대해 알게 되었다. lambda는 일시적인 함수이며, 간단하게 함수를 한줄로 표현하여 정의해 두고 쓰는 것이 아닌, 필요할때 바로 사용하는 함수이다. 기본 사용 딕셔너리 정렬하는 방법에 대해 추가적인 방법 remind…]]></description><link>https://kylexid.github.io/20190522TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190522TIL/</guid><pubDate>Wed, 22 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Python 람다(lambda)에 대해 알게 되었다.&lt;/h3&gt;
+topics &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Topic&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;objects&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;user__in&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;inner_qs&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[20190523 TIL]]></title><description><![CDATA[Django ‘in’문법에 대해 알게 되었다. in은 해당 내용이 포함된 값을 filter로 찾아낼 때 주로 사용된다. 입력 값의 형태는 순서형 자료(리스트, 튜플, 쿼리셋)를 사용할 수 있다. 또한 문자열도 입력 가능하지만, 자주 사용되지는 않는다.]]></description><link>https://kylexid.github.io/20190523TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190523TIL/</guid><pubDate>Thu, 23 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Django ‘in’문법에 대해 알게 되었다.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;in은 해당 내용이 포함된 값을 filter로 찾아낼 때 주로 사용된다.&lt;br&gt;
+입력 값의 형태는 순서형 자료(리스트, 튜플, 쿼리셋)를 사용할 수 있다.&lt;br&gt;
+또한 문자열도 입력 가능하지만, 자주 사용되지는 않는다.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[20190522 TIL]]></title><description><![CDATA[Python 람다(lambda)에 대해 알게 되었다. lambda는 일시적인 함수이며, 간단하게 함수를 한줄로 표현하여 정의해 두고 쓰는 것이 아닌, 필요할때 바로 사용하는 함수이다. 기본 사용 딕셔너리 정렬하는 방법에 대해 추가적인 방법 remind…]]></description><link>https://kylexid.github.io/20190522TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190522TIL/</guid><pubDate>Wed, 22 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Python 람다(lambda)에 대해 알게 되었다.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;lambda는 일시적인 함수이며, 간단하게 함수를 한줄로 표현하여 정의해 두고 쓰는 것이 아닌, 필요할때 바로 사용하는 함수이다.&lt;/li&gt;
 &lt;/ul&gt;
@@ -460,40 +685,7 @@ topics &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;Topic&lt;span 
 &lt;ul&gt;
 &lt;li&gt;git rebase를 왜 사용해야하는지에 대해 배우고, 사용법에 대해 알게 되었다.&lt;br&gt;
 또한 rebase를 직접 사용해보면서 에러상황에 대처하는 법에 대해 알게되었다.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Python lambda]]></title><description><![CDATA[Python 람다(lambda) lambda…]]></description><link>https://kylexid.github.io/20190522pythonlambda/</link><guid isPermaLink="false">https://kylexid.github.io/20190522pythonlambda/</guid><pubDate>Wed, 22 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Python 람다(lambda)&lt;/h2&gt;
-&lt;p&gt;lambda는 일시적인 함수이며, 간단하게 함수를 한줄로 표현하여 정의해 두고 쓰는 것이 아닌, 필요할때 바로 사용하는 함수이다.&lt;/p&gt;
-&lt;p&gt;람다는 다음과 같이 써줄 수 있다.&lt;/p&gt;
-&lt;h3&gt;기본 사용&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; 인자 &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 표현식&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;예제&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; test &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;x&lt;span class=&quot;token operator&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
-&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;test&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt;
-
-&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;딕셔너리 정렬에도 사용된다.&lt;/p&gt;
-&lt;h3&gt;활용 : dic sort&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token builtin&quot;&gt;sorted&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dic&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; key&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; k &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; dic&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;k&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; reverse&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;활용 : map()&lt;/h3&gt;
-&lt;p&gt;map함수는 과거 포스팅에서 한번 정리한적이 있다.
-맵 함수는 두개의 인자를 받는 함수이며, 여기에 lambda를 적용시킬 수 있다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; b &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;활용 : filter()&lt;/h3&gt;
-&lt;p&gt;filter는 두개의 인자를 받으며 첫번째 함수를 만족하는 두번째 원소들로 새로운 리스트를 만들어주는 함수이다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;101&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; a&lt;span class=&quot;token operator&quot;&gt;&amp;lt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;활용 : reduce()&lt;/h3&gt;
-&lt;p&gt;reduce는 순서형 자료(문자열,리스트,튜플)의 원소들을 누적하며 마지막 요소까지 함수를 돌리는 함수이다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; functools &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;reduce&lt;/span&gt;
-&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;reduce&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token number&quot;&gt;105&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;이는 &lt;code class=&quot;language-text&quot;&gt;((1 * 3) * 5)* 7&lt;/code&gt;을 하는 것과 동일하다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[파이썬에서 딕셔너리 정렬하기]]></title><description><![CDATA[딕셔너리 정렬 이때 key가 아닌 value로 정렬하려면 lambda를 사용해주면 된다. 를 해주면 value값을 기준으로 정렬한 리스트를 반환해 준다.
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[파이썬에서 딕셔너리 정렬하기]]></title><description><![CDATA[딕셔너리 정렬 이때 key가 아닌 value로 정렬하려면 lambda를 사용해주면 된다. 를 해주면 value값을 기준으로 정렬한 리스트를 반환해 준다.
 내림차순은  라는 옵션을 뒤에 붙여주면 된다. 2.items() 정렬 딕셔너리에 .items…]]></description><link>https://kylexid.github.io/20190522python_dic_sort/</link><guid isPermaLink="false">https://kylexid.github.io/20190522python_dic_sort/</guid><pubDate>Wed, 22 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;딕셔너리 정렬&lt;/h2&gt;
 &lt;br/&gt;
 ### 1.Key를 기준으로 정렬하기
@@ -659,7 +851,40 @@ hint: See the &amp;#39;Note about fast-forwards&amp;#39; in &amp;#39;git push --
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;commit : 세이브할 준비가 됨 다만 완벽하게안되서 중간세이브를 해주는 것이다.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[S3 정리]]></title><description><![CDATA[S3 S3 참고 사이트 bucket 퍼플릭 액세스 -> 웹사이트에서 읽어들일 수 있음 퍼플릭 액세스 블락하면 안됨 퍼미션 탭에 액세스 컨트롤, 리스트 탭, 퍼블릭 액세스 에브리원에 체크  리스트 오브젝트(겟 퍼미션) write…]]></description><link>https://kylexid.github.io/20190521TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190521TIL/</guid><pubDate>Tue, 21 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;S3&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Python lambda]]></title><description><![CDATA[Python 람다(lambda) lambda…]]></description><link>https://kylexid.github.io/20190522pythonlambda/</link><guid isPermaLink="false">https://kylexid.github.io/20190522pythonlambda/</guid><pubDate>Wed, 22 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Python 람다(lambda)&lt;/h2&gt;
+&lt;p&gt;lambda는 일시적인 함수이며, 간단하게 함수를 한줄로 표현하여 정의해 두고 쓰는 것이 아닌, 필요할때 바로 사용하는 함수이다.&lt;/p&gt;
+&lt;p&gt;람다는 다음과 같이 써줄 수 있다.&lt;/p&gt;
+&lt;h3&gt;기본 사용&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; 인자 &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 표현식&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;예제&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; test &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;x&lt;span class=&quot;token operator&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;test&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;딕셔너리 정렬에도 사용된다.&lt;/p&gt;
+&lt;h3&gt;활용 : dic sort&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token builtin&quot;&gt;sorted&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;dic&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; key&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; k &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; dic&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;k&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; reverse&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;활용 : map()&lt;/h3&gt;
+&lt;p&gt;map함수는 과거 포스팅에서 한번 정리한적이 있다.
+맵 함수는 두개의 인자를 받는 함수이며, 여기에 lambda를 적용시킬 수 있다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; b &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; b&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;활용 : filter()&lt;/h3&gt;
+&lt;p&gt;filter는 두개의 인자를 받으며 첫번째 함수를 만족하는 두번째 원소들로 새로운 리스트를 만들어주는 함수이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;101&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; a&lt;span class=&quot;token operator&quot;&gt;&amp;lt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;활용 : reduce()&lt;/h3&gt;
+&lt;p&gt;reduce는 순서형 자료(문자열,리스트,튜플)의 원소들을 누적하며 마지막 요소까지 함수를 돌리는 함수이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; functools &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;reduce&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;reduce&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token number&quot;&gt;105&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이는 &lt;code class=&quot;language-text&quot;&gt;((1 * 3) * 5)* 7&lt;/code&gt;을 하는 것과 동일하다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[S3 정리]]></title><description><![CDATA[S3 S3 참고 사이트 bucket 퍼플릭 액세스 -> 웹사이트에서 읽어들일 수 있음 퍼플릭 액세스 블락하면 안됨 퍼미션 탭에 액세스 컨트롤, 리스트 탭, 퍼블릭 액세스 에브리원에 체크  리스트 오브젝트(겟 퍼미션) write…]]></description><link>https://kylexid.github.io/20190521TIL/</link><guid isPermaLink="false">https://kylexid.github.io/20190521TIL/</guid><pubDate>Tue, 21 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;S3&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://igotit.tistory.com/entry/AWS-S3-%EC%84%A4%EC%A0%95&quot;&gt;S3 참고 사이트&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;bucket&lt;/h3&gt;
 &lt;ul&gt;
@@ -736,7 +961,41 @@ hint: See the &amp;#39;Note about fast-forwards&amp;#39; in &amp;#39;git push --
 &lt;li&gt;node : 데이터상자. 주로 class로 구현된다.&lt;/li&gt;
 &lt;li&gt;link : 각 데이터를 연결하여 리스트의 순서를 유지할 수 있게 해준다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;./linked.png&quot;&gt; &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/linked-e78b449fbe584e55a0770379a62e3783-065d6.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 36.75496688741722%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAAAsSAAALEgHS3X78AAABC0lEQVQY04WPyXKDMBBE+f9vS6VwVcogIclgY9ASVi1oO2Swq3JM+jDT79AtTRFCIITUdX0cB3j/p2KMSilKaXipCDFM0zQMw7/Jd3hdN84FGMAClrNOSZVTBoaK+NK76xdBx3GG9b5N3zLndIZdcLOfpVU22BiTD36F8m0zxuR8VizLiVrrlGKKcdZhNtH6DOXFuPMrrRDBreoe49J2PWMMNw1Mrkz/FLcbwxhTSrjan9I8Blkh1A6T86kYtbiiqv6qmGCNoKxjDW7KsoQAGVrMGkpoebmgGjHeoX689+Pl84N2IzxeGG+EkcLK3WsfvXVWcAFa4PN2NdaA54LDLSugs5NOcnWbO2/+AeCqh9ZsFBC4AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;linked&quot;
+        title=&quot;&quot;
+        src=&quot;/static/linked-e78b449fbe584e55a0770379a62e3783-48538.png&quot;
+        srcset=&quot;/static/linked-e78b449fbe584e55a0770379a62e3783-bed0f.png 200w,
+/static/linked-e78b449fbe584e55a0770379a62e3783-5fd34.png 400w,
+/static/linked-e78b449fbe584e55a0770379a62e3783-48538.png 800w,
+/static/linked-e78b449fbe584e55a0770379a62e3783-b70ec.png 1200w,
+/static/linked-e78b449fbe584e55a0770379a62e3783-065d6.png 1208w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+     &lt;/p&gt;
 &lt;h3&gt;Doubly Linked List&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -948,7 +1207,7 @@ hint: See the &amp;#39;Note about fast-forwards&amp;#39; in &amp;#39;git push --
 &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;reverseString&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;hello&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[버블 정렬(Bubble Sort)]]></title><description><![CDATA[버블 정렬(Bubble Sort) 버블 정렬은 인접한 데이터를 교환해서 정렬하는 알고리즘이다. 알고리즘의 정렬되는 모습이 마치 거품처럼 보인다고 해서 붙여진 이름이다.         선택 정렬과 차이점 버블 정렬은 바로 옆 index…]]></description><link>https://kylexid.github.io/20190515bubble_sort/</link><guid isPermaLink="false">https://kylexid.github.io/20190515bubble_sort/</guid><pubDate>Wed, 15 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;버블 정렬(Bubble Sort)&lt;/h2&gt;
 &lt;p&gt;버블 정렬은 인접한 데이터를 교환해서 정렬하는 알고리즘이다.&lt;br&gt;
 알고리즘의 정렬되는 모습이 마치 거품처럼 보인다고 해서 붙여진 이름이다.  &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./bubble.gif&quot;&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/bubble-d4c88b8cc620af6af67c33910899fcf7.gif&quot;&gt;  &lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1023,7 +1282,39 @@ hint: See the &amp;#39;Note about fast-forwards&amp;#39; in &amp;#39;git push --
 &lt;li&gt;퀵 정렬&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;이번 포스팅에서 다루는 선택 정렬은 list의 가장 크거나 작은 값을 정해진 위치로 차례 대로 보내서 list를 정렬하는 방법이다.  &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./selectionsortnew.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/selectionsortnew-049ae6ed68393ba6b92c9682c2434fea-453e8.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 494px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 123.48178137651821%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAYAAAAxFw7TAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC4klEQVQ4y23V124kQQgF0P7/L/KDH5wk55yzxznnnLAOK0btHY+Eiqaq4F6gmObr6ys+Pz/j/f091+fn57i4uIi7u7u4ubmJ29vbX8J2f38fp6eneeb/X3N1dZWbh4eHsbe3F2NjYykOHx8fx8nJScr5+XmcnZ3F0dFRivPuXV5e5p4zT09P/xwuLy/H/Px8ytDQUAwODsbq6mosLCykbXZ2NoU+NTWVsri4GJubm/H4+BgvLy/x8PAQHx8f0aAoAjREVNFE3t7eTkcu7u7uxs7OTuqC1ZlKFWfS16CB6sbGRqyvr8fa2lqsrKwkvYmJiS7a/f396HQ66dBZq28MObYPbYM3Ry6Vw9I5Rm96ejqFbq/OQN1TFA7lQOUUgqgmCpIPDRSiS4l9upxJF524j34jf3IDUYnocjk+Ph79/f2JtHJov2ijjK42EzyrDN3W1lYerEqTubm5FJVGlU2RKn9WeeuhjB7PELgkkohsolefsTnr+/r6OgXNanh24BoHl5aWYnh4OPr6+rKyWqUQF0p9V/3ou85UzgVNhxIpmsSXFApo0WvbCjX58+nZ0HMHBwfdJ1U9BcnIyEjmTiPbd0616VAJRncG20bUoqbXVHZ0dDS/rRq7isJWT3BmZiYLA6UgaqAzmtfX1+wpUdETzYYWEb2mTk2eKohv9zy7X5Rr0kAxMDCQPQg+OtoJCqsA7HRo6JChWQBUvfv0UKhnhlL1Jof1zjEom1Vjf39/985DufE+6QZFFUX0kqp0W6+Wqepn26CLqgKIqidr1lkJm5lJfFvZsJBLjjlUj3x6DkxOTibSqhiU0KJVUrYSrdTTh6oqd5wqBIcuilzjntRfQem6Av36a8A05yGoxj7K9bwUqP3U2v3XXqUIw7e3txxl+RfAoNIQVX9Z9Zi1/ulqCFQf0rWJsf+Lcj27Gv1EwtGuyWxt/0UomFUeMZRf31llUGt4Wtt62/bXnjyqLIbyZ9D8AJyqKK36N2Q8AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;selectionsortnew&quot;
+        title=&quot;&quot;
+        src=&quot;/static/selectionsortnew-049ae6ed68393ba6b92c9682c2434fea-453e8.png&quot;
+        srcset=&quot;/static/selectionsortnew-049ae6ed68393ba6b92c9682c2434fea-aee2a.png 200w,
+/static/selectionsortnew-049ae6ed68393ba6b92c9682c2434fea-da5f5.png 400w,
+/static/selectionsortnew-049ae6ed68393ba6b92c9682c2434fea-453e8.png 494w&quot;
+        sizes=&quot;(max-width: 494px) 100vw, 494px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;br/&gt;
 &lt;p&gt;&lt;strong&gt;버블 정렬과 차이점&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
